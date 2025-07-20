@@ -1,16 +1,17 @@
 # 📚 BSc CSIT – Past Year Questions & Concise Answers
 
 Welcome to this repository!  
-Here you'll find a comprehensive, unit-wise collection of past year questions and concise answers for all BSc CSIT (TU) core subjects (including 7th semester), specially referencing [hamrocsit.com](https://www.hamrocsit.com/).
+Here you'll find a comprehensive, unit-wise collection of past year questions and concise answers for all BSc CSIT (TU) core subjects, with a special focus on the 7th semester.  
+Direct question references and resources are provided from [hamrocsit.com](https://hamrocsit.com).
 
 ---
 
 ## 📖 What's Included
 
-- **All Major Subjects:** Covers core and elective BSc CSIT courses (including programming, management, data science, and more)
+- **All Major Subjects:** Covers 7th semester core BSc CSIT subjects (including programming, management, data science, SPM, and more)
 - **Unit-wise Organization:** Questions and answers grouped by syllabus units for each subject, for easy revision.
 - **Exam-Focused:** Short, clear, and practical answers—perfect for last-minute prep.
-- **Direct Question References:** Get original questions and more resources from [hamrocsit.com > 7th Semester](https://www.hamrocsit.com/semester/7).
+- **Direct Question References:** Find original questions and more resources from [hamrocsit.com 7th Semester](https://hamrocsit.com/semester/seventh).
 
 ---
 
@@ -18,11 +19,10 @@ Here you'll find a comprehensive, unit-wise collection of past year questions an
 
 ### 7th Semester Subjects
 
-- [Advanced Java Programming (CSC409)](./Advanced_Java_Programming_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://www.hamrocsit.com/pastpapers/advanced-java-programming-csc409)]
-- [Principles of Management (MGT411)](./Principles_of_Management_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://www.hamrocsit.com/pastpapers/principles-of-management-mgt411)]
-- [Data Warehousing & Data Mining (CSC410)](./Data_Warehousing_Data_Mining_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://www.hamrocsit.com/pastpapers/data-warehousing-data-mining-csc410)]
-- [Cyber Law and Professional Ethics (CSC411)](./Cyber_Law_and_Professional_Ethics_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://www.hamrocsit.com/pastpapers/cyber-law-and-professional-ethics-csc411)]
-- [Project Work](./Project_Work_Guide_and_Questions.md) [[Guidelines on hamrocsit.com](https://www.hamrocsit.com/pastpapers/project-work)]
+- [Advanced Java Programming (CSC409)](./Advanced_Java_Programming_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/advanced-java/)]
+- [Principles of Management (POM)](./Principles_of_Management_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/pom/)]
+- [Data Warehousing & Data Mining (CSC410)](./Data_Warehousing_Data_Mining_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/data-warehousing-data-mining/)]
+- [Software Project Management (CSC412)](./Software_Project_Management_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/software-project-management/)]
 
 ---
 
@@ -37,8 +37,8 @@ If this resource helps you:
 
 ## 🔗 More Resources
 
-- [hamrocsit.com 7th Semester Main Page](https://www.hamrocsit.com/semester/7)
-- [All TU CSIT Past Papers on hamrocsit.com](https://www.hamrocsit.com/pastpapers)
+- [hamrocsit.com 7th Semester Main Page](https://hamrocsit.com/semester/seventh)
+- [All TU CSIT Past Papers on hamrocsit.com](https://hamrocsit.com/pastpapers)
 
 ---
 
