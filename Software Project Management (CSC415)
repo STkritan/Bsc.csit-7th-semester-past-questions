@@ -1,0 +1,143 @@
+
+**Past Questions: 2078 – 2081**  
+
+---
+
+## UNIT 1: Introduction to Software Project Management
+
+- Q1. Why software project management is a challenging activity? [4 marks, 2078]
+- Q2. Explain project management cycle. [4 marks, 2079]
+- Q3. What are different types of project plan? [4 marks, 2081]
+- Q4. SPM framework. (See Q2 above for coverage) [4 marks, 2080]
+
+---
+
+## UNIT 2: Project Analysis
+
+- Q1. Differentiate between programme management and portfolio management. Define Payback period. How can it be used as an evaluation technique? What are its advantages and disadvantages? [10 marks, 2078]
+- Q2. Calculate ROI for the following project:  
+    Year 0: -50,000  
+    Year 1: 5,000  
+    Year 2: 5,000  
+    Year 3: 20,000  
+    Year 4: 40,000  
+    Year 5: 50,000  
+  [4 marks, 2078]
+- Q3. Explain why discounted cash flow techniques provide better criteria for project selection than net profit or return on investment. Highlight on IRR with respect to NPV. How can it be calculated manually? [10 marks, 2079]
+- Q4. Which project would you choose from following projects and why?  
+    (Given cash flows for Project A and B) [4 marks, 2079]
+- Q5. Calculate discounted payback period for the following project:  
+    Year 0: –200,000  
+    Year 1: 100,000  
+    Year 2: 50,000  
+    Year 3: 50,000  
+    Year 4: 100,000  
+    Year 5: 50,000  
+  [4 marks, 2080]
+- Q6. Why do you think economic analysis is an important activity? Explain present worth, future worth, annual worth. Illustrate on uniform gradient cash flow. [10 marks, 2081]
+- Q7. Suppose the cost price of 1 piece of USB drive is Rs. 1000. You bought 1000 pieces and also paid Rs 2000 as a delivery charge. Calculate ROI if you would sell those USB drives for Rs. 1500 per piece. [4 marks, 2081]
+- Q8. Short Notes:  
+    a) Present worth  
+    b) Annual Worth  
+    c) Future worth  
+    [4 marks, 2078, 2079, 2080, 2081]
+
+---
+
+## UNIT 3: Activity Planning and Scheduling
+
+- Q1. Draw precedence/network/CPM diagram for the following and identify the critical path:  
+    - (2078) A:5, B:3(A), C:5(A), D:10(B,C)  
+    - (2079) A:4, B:4(A), C:2(A), D:6(B,C)  
+    - (2080) A:2, B:2, C:4(A), D:2(B), E:4(B,D)  
+    - (2081) A:1, B:2(A), C:5(A), D:2, E:4(C,D), F:3, G:4(B,E,F)  
+    [10 marks, 2078; 4 marks, 2079, 2080, 2081]
+- Q2. Identify the process for shortening the project duration. [4 marks, 2081]
+- Q3. What are the objectives that activity planning aims to achieve? [4 marks, 2080]
+- Q4. Differentiate between activity-based approach and hybrid-based approach for identifying activities. [4 marks, 2078]
+- Q5. Work breakdown structure, Bar chart, Network planning model: CPM, PERT, PDM. (See Q1–Q4 above for coverage)
+
+---
+
+## UNIT 4: Risk Management
+
+- Q1. Suppose you have been assigned to develop online voting system. List four risks that might affect the success of the system. Rank the risks based on Risk exposure. Develop contingency plan for the highest ranked risk. [10 marks, 2078]
+- Q2. What are the practical implications of Risk Exposure? [4 marks, 2080]
+- Q3. Explain the process of risk analysis. [4 marks, 2081]
+- Q4. Short Notes:  
+    a) Risk Exposure  
+    [4 marks, 2079, 2080]
+- Q5. Introduction, nature and identification of risk, risk analysis, evaluation using Z-values. (See Q1–Q4 above for coverage)
+
+---
+
+## UNIT 5: Resource Allocation
+
+- Q1. Explain about different categories of resources? Highlight on the process of resource histogram equalization. Why do you think it is a crucial activity? [10 marks, 2080]
+- Q2. Why do you think resource smoothening and resource balancing is required? Explain how it is carried out? [4 marks, 2081]
+- Q3. Identifying resource requirements, allocation, smoothening, balancing. (See Q1, Q2 above for coverage)
+
+---
+
+## UNIT 6: Monitoring and Control
+
+- Q1. Perform Earned Value Analysis of the given project:  
+    - (2078, 2079, 2080) Activity table, progress table; Calculate SV, SPI, CV, CPI.  
+  [10 marks, 2078, 2079, 2080]
+- Q2. List techniques that are used for progress visualization and explain them. Why do you think project monitoring and control is very challenging? [10 marks, 2079]
+- Q3. Explain any two methods of visualizing progress of a project. [4 marks, 2081]
+- Q4. Collecting data, visualizing progress, cost monitoring, project control. (See Q2, Q3 above for coverage)
+
+---
+
+## UNIT 7: Managing Contracts and People
+
+- Q1. Highlight on different types of leadership styles. [4 marks, 2079]
+- Q2. Explain any two methods of visualizing progress of a project. [4 marks, 2081]
+- Q3. Explain any two methods of visualizing progress of a project. [4 marks, 2081]
+- Q4. What are different stages in contract? Explain. [4 marks, 2081]
+- Q5. Highlight on different types of contracts. [4 marks, 2080]
+- Q6. Managing people and organizing terms, leadership, organizational structures. (See above for coverage)
+
+---
+
+## UNIT 8: Software Quality Assurance and Testing
+
+- Q1. Explain Maslow’s hierarchy of needs. [4 marks, 2078]
+- Q2. Briefly explain different quality factors. [4 marks, 2078]
+- Q3. Differentiate between verification and validation. List testing principles. [4 marks, 2079]
+- Q4. What are testing principles? List different test strategies. Explain SQA plan. [10 marks, 2081]
+- Q5. SEI-CMM, its importance. [4 marks, 2081]
+- Q6. Software quality, SQA activities, QA organization structure. (See above for coverage)
+
+---
+
+## UNIT 9: Software Configuration Management
+
+- Q1. Explain the process of Software Configuration Management. [4 marks, 2078]
+- Q2. What is a baseline? Why Software Configuration Management is a critical activity? [4 marks, 2079]
+- Q3. How can Software Configuration Management aid in change control and version control? [4 marks, 2080]
+- Q4. Highlight on configuration management responsibilities. [4 marks, 2081]
+- Q5. Introduction, need, basic configuration, management responsibilities. (See above for coverage)
+
+---
+
+## GENERAL / SHORT NOTES
+
+- Q1. Short Notes:  
+    a) Present worth  
+    b) PERT diagram [4 marks, 2078]  
+    c) Annual Worth [4 marks, 2079]  
+    d) Risk Exposure [4 marks, 2079, 2080]  
+    e) Future worth [4 marks, 2080]  
+    f) Bubble chart [4 marks, 2080]  
+    g) Baseline [4 marks, 2081]  
+    h) Schedule variance [4 marks, 2081]
+
+---
+
+**Note:**  
+- All questions are classified and grouped strictly according to the official TU syllabus units.
+- Repeated questions across years and marks are listed together with all instances.
+- Both long and short questions from 2078–2081 are included.
+- Every attempt has been made to ensure no question is missed from years 2078–2081.
