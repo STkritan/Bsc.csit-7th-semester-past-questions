@@ -18,6 +18,11 @@ Direct question references and resources are provided from [hamrocsit.com](https
 ## 🚀 Quick Navigation
 
 ### 7th Semester Subjects
+- [Advance Java Programming](./Advance%20Java%20Programming)
+- [Principles of Management (MGT411)](./Principles%20of%20Management%20%28MGT411%29)
+- [Data Warehousing and Data Mining (CSC410)](./Data%20Warehousing%20and%20Data%20Mining%20%28CSC410%29)
+- [Software Project Management (CSC415)](./Software%20Project%20Management%20%28CSC415%29)
+- [Java simple answers](./Java%20simple%20answers)
 
 - [Advanced Java Programming (CSC409)](./Advanced_Java_Programming_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/advanced-java/)]
 - [Principles of Management (POM)](./Principles_of_Management_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/pom/)]
@@ -38,7 +43,7 @@ If this resource helps you:
 ## 🔗 More Resources
 
 - [hamrocsit.com 7th Semester Main Page](https://hamrocsit.com/semester/seventh)
-- [All TU CSIT Past Papers on hamrocsit.com](https://hamrocsit.com/pastpapers)
+
 
 ---
 
