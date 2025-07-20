@@ -18,16 +18,12 @@ Direct question references and resources are provided from [hamrocsit.com](https
 ## 🚀 Quick Navigation
 
 ### 7th Semester Subjects
-- [Advance Java Programming](./Advance%20Java%20Programming)
-- [Principles of Management (MGT411)](./Principles%20of%20Management%20%28MGT411%29)
-- [Data Warehousing and Data Mining (CSC410)](./Data%20Warehousing%20and%20Data%20Mining%20%28CSC410%29)
-- [Software Project Management (CSC415)](./Software%20Project%20Management%20%28CSC415%29)
+- [Advance Java Programming](./Advance%20Java%20Programming)[[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/advanced-java/)]
+- [Principles of Management (MGT411)](./Principles%20of%20Management%20%28MGT411%29)[[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/pom/)]
+- [Data Warehousing and Data Mining (CSC410)](./Data%20Warehousing%20and%20Data%20Mining%20%28CSC410%29)[[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/data-warehousing-data-mining/)]
+- [Software Project Management (CSC415)](./Software%20Project%20Management%20%28CSC415%29) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/software-project-management/)]
 - [Java simple answers](./Java%20simple%20answers)
 
-- [Advanced Java Programming (CSC409)](./Advanced_Java_Programming_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/advanced-java/)]
-- [Principles of Management (POM)](./Principles_of_Management_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/pom/)]
-- [Data Warehousing & Data Mining (CSC410)](./Data_Warehousing_Data_Mining_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/data-warehousing-data-mining/)]
-- [Software Project Management (CSC412)](./Software_Project_Management_Past_Questions_Answers.md) [[Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/software-project-management/)]
 
 ---
 
@@ -48,4 +44,4 @@ If this resource helps you:
 ---
 
 **Best of luck with your studies!**  
-Feel free to share with friends and classmates.
+
