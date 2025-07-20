@@ -1,0 +1,128 @@
+
+**Past Questions: 2078 – 2081**  
+
+---
+
+## UNIT 1: Introduction to Data Warehousing
+
+- Q1. Describe about multi-dimensional data model and conceptual modeling of data warehouse. [10 marks, 2081]
+- Q2. Why the concept of data mart is important? Discuss different data warehouse schema with examples. [10 marks, 2080]
+- Q3. Explain the different components of data warehouse. How data cube precomputation is performed? Describe. [10 marks, Model Set]
+- Q4. What are data warehouse trends? (See Q1–Q3 above for coverage)
+- Q5. Differentiate between operational database and data warehouse. (See Q1–Q3 above for coverage)
+
+---
+
+## UNIT 2: Introduction to Data Mining
+
+- Q1. When a pattern is said to be interesting? List the issues of data mining. [4 marks, 2078]
+- Q2. Discuss the concept of KDD and explain various stages of KDD with suitable block diagram. [4 marks, 2080]
+- Q3. How KDD differs from data mining? [4 marks, 2080]
+- Q4. Motivation for data mining, functionalities, issues and applications. (See Q1–Q3 above for coverage)
+
+---
+
+## UNIT 3: Data Preprocessing
+
+- Q1. Define data discretization. Describe the tasks for data preprocessing. [4 marks, 2078]
+- Q2. Why data normalization is important in data mining? Explain min-max and Z-score normalization approach. [4 marks, 2079]
+- Q3. Why data preprocessing is mandatory? Justify. [4 marks, Model Set]
+- Q4. Discuss different ways of smoothing noisy data along with suitable examples. [4 marks, 2080]
+- Q5. Describe any two methods of handling noisy data. [4 marks, 2081]
+
+---
+
+## UNIT 4: Data Cube Technology
+
+- Q1. What are the choices for data cube materialization? Explain the strategies for cube computation. [4 marks, 2078]
+- Q2. Suppose that we have 5 dimensional data. What will be total number of cuboids generated? If each dimension has 5 levels, what will be the number of cuboids generated? [4 marks, 2079]
+- Q3. How many cuboids are possible from 5-dimensional data? Discuss the concept of full cube and iceberg cube. [4 marks, 2080]
+- Q4. Explain the general strategies for cube computation. [4 marks, 2081]
+- Q5. Describe about multi-dimensional data model. (See UNIT 1)
+- Q6. Attribute-oriented induction for data characterization, mining class comparison. (See above for coverage)
+
+---
+
+## UNIT 5: Mining Frequent Patterns
+
+- Q1. How do you generate strong association rules? From the given dataset, find the frequent item set using FP growth algorithm with minimum support 3. [10 marks, 2081]
+- Q2. State Apriori property. Find frequent item sets and association rules from the transaction database using Apriori algorithm (min. support 50%, min. confidence 75%). [10 marks, 2080]
+- Q3. Discuss any two drawbacks of Apriori algorithm. Find frequent item-sets and association rules from the transaction database using FP-growth algorithm (min. support 50%, min. confidence 60%). [10 marks, 2079]
+- Q4. How concept hierarchy is used in extracting information? Generate the frequent pattern from the given data set using FP growth (min. support = 3). [10 marks, 2078]
+- Q5. Show the conflict between theory of balance and status. How do you improve Apriori? [4 marks, 2078]
+- Q6. Given dataset, find the frequent itemset using Apriori algorithm with minimum support 3. [5 marks, Model Set]
+- Q7. Types of association rules, Market basket analysis, Lift. (See Q1–Q6 above)
+
+---
+
+## UNIT 6: Classification and Prediction
+
+- Q1. How do you compare two classifiers? Given points, find the core points, border points and outliers using DBSCAN (Eps=2.5, MinPts=3). [10 marks, 2078]
+- Q2. When multilayer perceptron is better choice over other classification algorithms? Given a neural network, show weight and bias updates using back-propagation algorithm. [10 marks, 2079]
+- Q3. How classification differs from regression. Train ID3 classifier using the given dataset. Predict class label for data [Age=Mid, Competition=Yes, Type=HW]. [10 marks, 2080]
+- Q4. Define overfitting and underfitting. Train the decision tree classifier using the ID3 algorithm based on the given training data. [10 marks, 2081]
+- Q5. Consider the following data set. Find whether the object with attribute Confident=Yes, Sick=No will fail or pass using Bayesian classification. [4 marks, 2078]
+- Q6. What is confusion matrix? Discuss various classification measures along with their mathematical formulae. [4 marks, 2079]
+- Q7. How do you evaluate the accuracy of a classifier? Discuss advantages of using K-fold cross validation. [4 marks, 2078]
+- Q8. Which algorithm is used for training multi-layer perceptron? Discuss the algorithm in detail. [4 marks, 2080]
+- Q9. What is support vector? How do you evaluate the accuracy of a classifier? Describe. [4 marks, 2081]
+- Q10. Discuss about overfitting and underfitting. How precision and recall is used to evaluate classifier. [4 marks, Model Set]
+- Q11. Rule-based classifier, McNemar’s test, Laplace smoothing. (See above for coverage)
+
+---
+
+## UNIT 7: Cluster Analysis
+
+- Q1. Apply K(=2)-Means algorithm over the data up to two iterations and show the clusters. [4 marks, 2078]
+- Q2. What are two categories of hierarchical clustering? Divide the given data points into two clusters using agglomerative clustering. [4 marks, 2079]
+- Q3. How K-medoids clustering differs from K-means clustering? Divide the given data points into two clusters using k-medoids algorithm, show computation up to 3 iterations. [4 marks, 2080]
+- Q4. Given the objects, apply K-means algorithm (K=2) to show the final clusters after 2 iterations. Assume P1 and P3 as initial cluster centroids. [4 marks, Model Set]
+- Q5. Using k-means++ algorithm and Euclidean distance, find the initial 3 cluster centroids from given points. Choose (3,11) as one of the initial centroids. [4 marks, 2081]
+- Q6. Discuss the concept of K-means++ and Mini-batch K-means algorithm. [4 marks, 2079, Model Set]
+- Q7. Explain working of DBSCAN algorithm. [4 marks, 2080]
+- Q8. What is the concept mini batch k-means? How DBSCAN works? [4 marks, Model Set]
+- Q9. Differentiate between k-means and k-medoids clustering algorithm. [4 marks, 2081]
+- Q10. Outlier analysis. (See Q1 above and also UNIT 6 Q1)
+
+---
+
+## UNIT 8: Graph Mining and Social Network Analysis
+
+- Q1. Define signed network and how do you check whether it is balanced or not? [10 marks, 2078]
+- Q2. What are application areas of graph mining? Explain the concept behind inductive logic programming with suitable demonstration. [4 marks, 2079]
+- Q3. How trust and distrust propagate in social network? Explain. [4 marks, Model Set]
+- Q4. Define graph mining. Discuss the conflict between theory of balance and theory of status. [4 marks, 2081]
+- Q5. How beam search and logic programming is used to mine graph? Explain. [4 marks, Model Set]
+- Q6. Theory of structured balance, theory of status, link mining, predicting positive/negative links. (See above for coverage)
+
+---
+
+## UNIT 9: Mining Spatial, Multimedia, Text and Web Data
+
+- Q1. Define spatial data mining. What are the challenges of multimedia mining? Describe with an example. [4 marks, 2078]
+- Q2. List any two challenge of multimedia mining. Differentiate between web usage mining and web content mining. [4 marks, Model Set]
+- Q3. Discuss the concept of text mining with its practical implications. [4 marks, 2079]
+- Q4. Discuss the concept of multimedia data mining along with the concept of similarity search. [4 marks, 2080]
+- Q5. Describe any five types of OLAP operations. [4 marks, Model Set]
+- Q6. Distinguish between data characterization and data discrimination. What are the challenges of multimedia mining? [4 marks, 2081]
+- Q7. Web mining, spatial association, NLP, information extraction. (See above for coverage)
+
+---
+
+## GENERAL / SHORT NOTES
+
+- Q1. Write short notes on:  
+    a) Data Mart [4 marks, 2079]  
+    b) Market Basket Analysis [4 marks, 2079]  
+    c) Support Vector Machine [4 marks, 2080]  
+    d) Multi-dimensional Data Model [4 marks, 2080]  
+    e) Baseline [4 marks, 2081]  
+    f) Schedule variance [4 marks, 2081]
+
+---
+
+**Note:**  
+- All questions are classified and grouped strictly according to the official TU syllabus units.
+- Repeated questions across years and marks are listed together with all instances.
+- Both long and short questions from 2078–2081 are included.
+- Every attempt has been made to ensure no question is missed from years 2078–2081.
