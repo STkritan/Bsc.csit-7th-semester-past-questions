@@ -1,0 +1,121 @@
+# Advanced Java Programming (CSC409)  
+Past Questions: 2077 – 2081**  
+
+ UNIT 1: Programming in Java
+
+- Q1. Explain feature of object-oriented programming. Create a class Distance with private variables feet of type integer and inches of type floating point. Use suitable constructor, and methods for adding and comparing two distance objects. [10 marks, 2079]
+- Q2. Differentiate between path and class path in Java. When do you prefer anonymous inner class? [4 marks, 2081]
+- Q3. Name the list of class file created after compiling given nested class program. Rewrite the program using for loop. [4 marks, 2081]
+- Q4. Why multiple inheritance is not allowed in Java using classes? Give an example. [4 marks, 2077]
+- Q5. What is package? How can you create your own package in Java? Explain with example. [4 marks, 2078]
+- Q6. Arrays, for each loop, access privileges, interface, inner class, final/static modifiers, packages, inheritance, overriding. (See Q1, Q2, Q4, Q5 above for question coverage)
+- Q7. What is the significance of stub and skeleton in RMI? [4 marks, 2077]
+- Q8. Describe the responsibility of Serializable interface. Write a program to read an input string from the user and write the vowels of that string in VOWEL.TXT and consonants in CONSOLNANT.TXT. [10 marks, 2077]
+- Q9. Write a function that accepts an integer array and returns 1 if it is a centered array, otherwise it returns 0. [10 marks, 2080]
+
+---
+
+## UNIT 2: User Interface Components with Swing
+
+- Q1. Compare AWT with Swing. Write a GUI program using components to find sum and difference of two numbers. Use two text fields for input and a label for output. Program displays sum if mouse pressed and difference if released. [10 marks, 2078]
+- Q2. Why do we need layout management? Explain any two layout managers with example. Write a simple GUI program that displays “Hello World” in a text field. Output shown on button click. [10 marks, 2079]
+- Q3. Describe any two types of Layout manager. Using swing components, design a form with three buttons with captions “RED,” “BLUE,” and “GREEN,” and handle click event to change button color. [10 marks, 2080]
+- Q4. What is the task of Layout manager? Describe about default layout manager. [4 marks, 2077]
+- Q5. What is grid layout? Compare grid layout with grid bag layout. [4 marks, 2079]
+- Q6. When do we need an internal frame? How do you create a table using Swing? [4 marks, 2080]
+- Q7. Write a program to create a menu named “File” with menu items “New,” “Save,” and “Exit”. [4 marks, 2080]
+- Q8. Explain HBox and BBox layouts of JavaFX. [4 marks, 2078]
+- Q9. Write a JavaFX application with components, buttons, text fields, and labels, arranged in a VBox or HBox layout. [4 marks, 2080]
+- Q10. What are the tasks of sliders and scroll pane? Explain any four types of layout manager. [4 marks, 2081]
+
+---
+
+## UNIT 3: Event Handling
+
+- Q1. What is the task of the Listener interface? [4 marks, 2081]
+- Q2. Define event delegation model. Why do we need adapter class in event handling? [4 marks, 2077]
+- Q3. How can we use listener interface to handle events? Compare listener interface with adapter class. [4 marks, 2078]
+- Q4. Why do we need event handling? Explain the use of action event with example. [4 marks, 2079]
+- Q5. Describe any two types of events. [4 marks, 2081]
+- Q6. Using ActionEvent, KeyEvent, FocusEvent, MouseEvent, WindowEvent, ItemEvent. (See Q2, Q3, Q4, Q5 above for question coverage)
+
+---
+
+## UNIT 4: Database Connectivity (JDBC)
+
+- Q1. You are to design a schema named MRS and create a table Movie(id, Title, Genre, Language, Length). Write a GUI form to take input for this table and insert data on OK button. [10 marks, 2077]
+- Q2. Assume a table MOVIE(id, title, genre). Using JDBC, a) Add any three records. b) Update genre to “Comedy” for title “Jatra” using prepared statement. [4 marks, 2080]
+- Q3. What is row set? Explain cached row set in detail. [4 marks, 2078]
+- Q4. Describe the role of Result Sets. [4 marks, 2080]
+- Q5. What is wrong in the following code? (Point class with setP method) [4 marks, 2080]
+- Q6. Explain JDBC driver types. What is scrollable result set? [4 marks, 2079]
+- Q7. Write short notes on: JDBC drivers [4 marks, 2078]
+- Q8. List the steps to create an RMI application. Differentiate between RMI and CORBA. [4 marks, 2080]
+- Q9. DDL and DML Operations, Statements, PreparedStatements, Transactions, SQL Escapes, Updateable Result Sets, Row Sets and Cached Row Sets. (See Q2, Q3, Q4, Q6, Q8 above for coverage)
+- Q10. What do you mean by SQL escape? Describe about scrollable and updateable result sets. [4 marks, 2081]
+
+---
+
+## UNIT 5: Network Programming
+
+- Q1. Write a socket program for a file server that serves files after receiving “GET <filename>” command. Handles OK/ERROR responses. [10 marks, 2081]
+- Q2. Write Java program that send messages with each other using TCP socket. [4 marks, 2079]
+- Q3. Write a TCP client-server system: client sends two integers, server returns the greatest. [4 marks, 2080]
+- Q4. Transmission Control Protocol (TCP), User Datagram Protocol (UDP), Ports, IP Address, Network Classes in JDK. (Covered via Q2, Q3)
+- Q5. Socket programming using TCP, UDP, working with URLs, URLConnection. (See Q1–Q3 above for question coverage)
+- Q6. Java Mail API, Sending and Receiving Email. [4 marks, 2078] [Also see UNIT 7: Q8, 2080]
+
+---
+
+## UNIT 6: GUI with JavaFX
+
+- Q1. Compare JavaFX with Swing. Explain HBox and BBox layouts of JavaFX. [4 marks, 2078]
+- Q2. What is JavaFX? Compare it with swing. Explain FlowPane layout of JavaFX. [4 marks, 2079]
+- Q3. Write a JavaFX application with components, buttons, text fields, labels, arranged in VBox or HBox. [4 marks, 2080]
+- Q4. How does JavaFX hyperlink control format text that functions as button? Illustrate with an example. [4 marks, 2081]
+
+---
+
+## UNIT 7: Servlets and Java Server Pages (JSP)
+
+- Q1. Explain life-cycle of servlet in detail. Create a simple servlet that reads and displays data from HTML form (username, password). [10 marks, 2078]
+- Q2. Explain the life cycle of a servlet. [4 marks, 2077, 2081]
+- Q3. How does JSP differ from Servlet and show the life cycle of Servlet? How do you create and read the cookies and session using JSP? [10 marks, 2080]
+- Q4. Define JSP. What are the benefits of using JSP? Create HTML and JSP files to read and display full name from first/last name fields. [10 marks, 2079]
+- Q5. How forms can be created and processed using JSP? [4 marks, 2077]
+- Q6. What is servlet? Write a simple JSP file to display “Tribhuwan University” five times. [4 marks, 2078]
+- Q7. Compare JSP with servlet. What are different implicit objects in JSP? [4 marks, 2079]
+- Q8. What do you mean by JSP implicit objects? Discuss Java Mail API. [4 marks, 2080]
+- Q9. Write a program in JSP to display the string taken in one page in another page. [4 marks, 2081]
+- Q10. Servlet vs JSP, JSP Access Model, Syntax, Implicit Objects, Object Scope, Processing Forms, Database Access with JSP. (See Q3–Q9 above for coverage)
+
+---
+
+## UNIT 8: RMI and CORBA
+
+- Q1. What is the significance of stub and skeleton in RMI? Create an RMI application where client sends integer, server returns factorial. Specify steps. [10 marks, 2077]
+- Q2. Explain RMI architecture layers in detail. Write a Java program using RMI to find product of two numbers. [10 marks, 2078]
+- Q3. List the steps to create an RMI application. Differentiate between RMI and CORBA. [4 marks, 2080]
+- Q4. How do you write an IDL file and generate stub and skeleton code for CORBA implementation? Explain. [4 marks, 2081]
+- Q5. Why CORBA is important? Compare CORBA with RMI. [4 marks, 2078]
+- Q6. Introduction to CORBA, RMI vs CORBA, Architecture of CORBA, IDL, Simple CORBA Program. (See Q3–Q5 above for coverage)
+---
+
+## GENERAL/SHORT NOTES & MISC
+
+- Q1. Write short notes on:  
+    a. JAVA beans and JAR file  
+    b. MVC design pattern [4 marks, 2077]
+- Q2. Write short notes on:  
+    a. JDBC drivers  
+    b. Java server pages [4 marks, 2078]
+- Q3. Write short notes on:  
+    a. Final class  
+    b. Result set [4 marks, 2079]
+---
+
+**Note:**  
+- All questions are classified and grouped strictly according to the official TU syllabus units.
+- Repeated questions across years and marks are listed together with all instances.
+- Both long (Group A/Section A) and short (Group B/Section B) questions are included.
+- Every attempt has been made to ensure no question is missed from years 2077–2081.
