@@ -1,0 +1,582 @@
+# Advanced Java Programming (CSC409)  
+**Selected Short Conceptual Answers (2077 – 2081)**
+
+---
+
+## UNIT 1: Programming in Java
+
+**Q1. Explain features of object-oriented programming. Create a class Distance with private variables feet (integer) and inches (float). Use suitable constructor and methods for adding and comparing two distance objects.**
+
+### Features of Object-Oriented Programming (OOP)
+
+- **Encapsulation:** Bundling data and methods together in a class, restricting access (e.g., using `private` variables).
+- **Abstraction:** Showing only essential features, hiding complexity from the user.
+- **Inheritance:** Creating new classes from existing ones to reuse code.
+- **Polymorphism:** Using one interface for different data types (method overriding/overloading).
+- **Reusability:** Classes and methods can be used in multiple programs.
+
+### Distance Class Example
+```java
+class Distance {
+    private int feet;
+    private float inches;
+
+    public Distance(int feet, float inches) {
+        this.feet = feet;
+        this.inches = inches;
+    }
+
+    public Distance add(Distance d) {
+        int totalFeet = this.feet + d.feet;
+        float totalInches = this.inches + d.inches;
+        if (totalInches >= 12) {
+            totalFeet += (int)(totalInches / 12);
+            totalInches = totalInches % 12;
+        }
+        return new Distance(totalFeet, totalInches);
+    }
+
+    public boolean equals(Distance d) {
+        return (this.feet == d.feet && this.inches == d.inches);
+    }
+}
+```
+
+---
+
+**Q2. Differentiate between path and class path in Java. When do you prefer anonymous inner class?**
+
+- **Path:** Sets the OS location for Java executables (`javac`, `java`).  
+- **Classpath:** Tells Java where to find user-defined classes, packages, and libraries.
+- **Anonymous Inner Class:** Used for short, one-time implementations (e.g., event handlers) without creating a separate class file.
+
+---
+
+**Q3. Name the list of class files created after compiling a given nested class program. Rewrite the program using a for loop.**
+
+- If outer class is named `Outer` and inner class is `Inner`, compiling produces:  
+  - `Outer.class`  
+  - `Outer$Inner.class`
+- **For loop example:**
+```java
+for(int i = 0; i < 5; i++) {
+    // loop body
+}
+```
+
+---
+
+**Q4. Why is multiple inheritance not allowed in Java using classes? Give an example.**
+
+- Multiple inheritance is not allowed in Java to avoid ambiguity (the "diamond problem").
+- Example:
+```java
+class A { void show() {} }
+class B { void show() {} }
+// class C extends A, B { } // Error! Not allowed in Java.
+```
+- Java supports multiple inheritance through interfaces, not classes.
+
+---
+
+**Q5. What is a package? How can you create your own package in Java? Explain with example.**
+
+- **Package:** Group of related classes and interfaces for organization and access control.
+- **To create:**  
+  - Add `package mypackage;` at the top of your code.
+  - Place the file in a folder named `mypackage`.
+  - Example:
+```java
+package mypackage;
+
+public class Hello {
+    public void sayHi() {
+        System.out.println("Hi!");
+    }
+}
+```
+
+---
+
+**Q6. What is the significance of stub and skeleton in RMI?**
+
+- **Stub:** Client-side proxy that forwards remote calls to the server.
+- **Skeleton:** Server-side entity that receives calls from the stub and invokes actual methods (used in older Java versions).
+
+---
+
+**Q7. Describe the responsibility of the Serializable interface. Write a program to read an input string from the user and write the vowels of that string in VOWEL.TXT and consonants in CONSONANT.TXT.**
+
+- **Serializable:** Allows objects to be saved and restored (object serialization).
+- **Example code:**
+```java
+String str = "example"; // Input from user
+FileWriter vowel = new FileWriter("VOWEL.TXT");
+FileWriter consonant = new FileWriter("CONSONANT.TXT");
+for(char c : str.toCharArray()) {
+    if("AEIOUaeiou".indexOf(c) != -1) vowel.write(c);
+    else if(Character.isLetter(c)) consonant.write(c);
+}
+vowel.close(); consonant.close();
+```
+
+---
+
+**Q8. Write a function that accepts an integer array and returns 1 if it is a centered array, otherwise it returns 0.**
+
+- **Definition:** Middle element is strictly greater than all to its left and less than all to its right.
+- **Code:**
+```java
+int isCentered(int[] arr) {
+    if(arr.length % 2 == 0) return 0;
+    int mid = arr.length / 2;
+    int midVal = arr[mid];
+    for(int i = 0; i < arr.length; i++) {
+        if(i < mid && arr[i] >= midVal) return 0;
+        if(i > mid && arr[i] <= midVal) return 0;
+    }
+    return 1;
+}
+```
+
+---
+
+## UNIT 2: User Interface Components with Swing
+
+**Q1. Compare AWT with Swing. Write a GUI program using components to find sum and difference of two numbers.**
+
+- **AWT:** Heavyweight, uses OS native components, less flexible.
+- **Swing:** Lightweight, more features, platform-independent.
+- **GUI code (sum on button click):**
+```java
+JTextField t1 = new JTextField();
+JTextField t2 = new JTextField();
+JLabel result = new JLabel();
+JButton addBtn = new JButton("Add");
+addBtn.addActionListener(e -> {
+    int sum = Integer.parseInt(t1.getText()) + Integer.parseInt(t2.getText());
+    result.setText("Sum: " + sum);
+});
+```
+
+---
+
+**Q2. Why do we need layout management? Explain any two layout managers with example. Write a simple GUI program that displays “Hello World” in a text field. Output shown on button click.**
+
+- **Layout management:** Arranges components automatically.
+- **FlowLayout:** Left-to-right, wraps to next line.
+- **BorderLayout:** Divides into North, South, East, West, Center.
+- **Example:**
+```java
+JTextField tf = new JTextField(10);
+JButton btn = new JButton("Show");
+btn.addActionListener(e -> tf.setText("Hello World"));
+```
+
+---
+
+**Q3. Describe any two types of Layout manager. Design a form with three buttons “RED,” “BLUE,” “GREEN,” change color on click.**
+
+- **GridLayout:** Arranges in grid (rows x columns).
+- **BoxLayout:** Arranges components along X or Y axis.
+```java
+JButton red = new JButton("RED");
+red.addActionListener(e -> red.setBackground(Color.RED));
+```
+
+---
+
+**Q4. What is the task of layout manager? Describe the default layout manager.**
+
+- **Task:** Arranges components in a container.
+- **Default:** JPanel = FlowLayout; JFrame = BorderLayout.
+
+---
+
+**Q5. What is grid layout? Compare grid layout with grid bag layout.**
+
+- **GridLayout:** All cells are same size.
+- **GridBagLayout:** Flexible size, allows spanning multiple rows/columns.
+
+---
+
+**Q6. When do we need an internal frame? How do you create a table using Swing?**
+
+- **Internal frame:** For MDI (multiple document interface), e.g., JDesktopPane + JInternalFrame.
+- **Table:** Use `JTable` class.
+
+---
+
+**Q7. Write a program to create a menu named “File” with menu items “New,” “Save,” and “Exit”.**
+```java
+JMenuBar menuBar = new JMenuBar();
+JMenu fileMenu = new JMenu("File");
+fileMenu.add(new JMenuItem("New"));
+fileMenu.add(new JMenuItem("Save"));
+fileMenu.add(new JMenuItem("Exit"));
+menuBar.add(fileMenu);
+```
+
+---
+
+**Q8. Explain HBox and VBox layouts of JavaFX.**
+
+- **HBox:** Arranges nodes horizontally in a row.
+- **VBox:** Arranges nodes vertically in a column.
+
+---
+
+**Q9. Write a JavaFX application with buttons, text fields, labels, arranged in VBox or HBox.**
+```java
+VBox vbox = new VBox();
+vbox.getChildren().addAll(new Label("Name:"), new TextField(), new Button("Submit"));
+```
+
+---
+
+**Q10. What are the tasks of sliders and scroll pane? Explain any four types of layout manager.**
+
+- **Slider:** Selects a value from a range.
+- **ScrollPane:** Adds scrollbars for large components.
+- **Layout managers:** FlowLayout, BorderLayout, GridLayout, BoxLayout.
+
+---
+
+## UNIT 3: Event Handling
+
+**Q1. What is the task of the Listener interface?**
+
+- Allows handling of specific events (e.g., ActionListener for button clicks).
+
+---
+
+**Q2. Define event delegation model. Why do we need adapter class in event handling?**
+
+- **Event delegation:** Event source generates event, listener handles it.
+- **Adapter class:** Provides empty implementations; you override only needed methods.
+
+---
+
+**Q3. How can we use listener interface to handle events? Compare listener interface with adapter class.**
+
+- **Listener interface:** Implement and override all methods.
+- **Adapter class:** Extend and override only required methods.
+
+---
+
+**Q4. Why do we need event handling? Explain the use of action event with example.**
+
+- Responds to user actions (button click, etc.).
+```java
+button.addActionListener(e -> System.out.println("Clicked!"));
+```
+
+---
+
+**Q5. Describe any two types of events.**
+
+- **ActionEvent:** Generated by buttons, menu items.
+- **KeyEvent:** Generated by keyboard actions.
+
+---
+
+## UNIT 4: Database Connectivity (JDBC)
+
+**Q1. Design a schema named MRS and create a table Movie(id, Title, Genre, Language, Length). Write a GUI form to input and insert data.**
+
+- **Schema:**
+```sql
+CREATE TABLE Movie(id INT, Title VARCHAR(50), Genre VARCHAR(30), Language VARCHAR(20), Length INT);
+```
+- **Insert in Java:**
+```java
+PreparedStatement ps = con.prepareStatement("INSERT INTO Movie VALUES (?, ?, ?, ?, ?)");
+ps.setInt(1, id); ps.setString(2, title); // and so on
+ps.executeUpdate();
+```
+
+---
+
+**Q2. Assume table MOVIE(id, title, genre). Using JDBC, add 3 records and update genre to “Comedy” for title “Jatra”.**
+```java
+// Add
+ps = con.prepareStatement("INSERT INTO MOVIE VALUES (?, ?, ?)");
+ps.setInt(1, 1); ps.setString(2, "Jatra"); ps.setString(3, "Drama"); ps.executeUpdate();
+// Update
+ps = con.prepareStatement("UPDATE MOVIE SET genre=? WHERE title=?");
+ps.setString(1, "Comedy"); ps.setString(2, "Jatra"); ps.executeUpdate();
+```
+
+---
+
+**Q3. What is row set? Explain cached row set in detail.**
+
+- **RowSet:** Scrollable, updatable ResultSet with disconnected operation.
+- **CachedRowSet:** Stores data in memory, can be modified and synchronized with DB later.
+
+---
+
+**Q4. Describe the role of Result Sets.**
+
+- Stores the result of a SQL query; allows navigation and data retrieval row by row.
+
+---
+
+**Q5. What is wrong in the following code?**
+```java
+public class Point {
+    int p;
+    public void setP(int p) {
+        p = p;
+    }
+}
+```
+- `p = p;` assigns parameter to itself, not field. Fix: `this.p = p;`
+
+---
+
+**Q6. Explain JDBC driver types. What is scrollable result set?**
+
+- **Types:** JDBC-ODBC Bridge, Native-API, Network Protocol, Thin Driver.
+- **Scrollable ResultSet:** Allows moving the cursor both forward and backward.
+
+---
+
+**Q7. Write short notes on: JDBC drivers**
+
+- Allow Java to connect to different databases, translating Java calls to DB-specific calls.
+
+---
+
+**Q8. List steps to create an RMI application. Differentiate between RMI and CORBA.**
+
+- **Steps:** Create remote interface, implement, generate stubs, run registry, start server, start client.
+- **RMI:** Java-only, easy serialization. **CORBA:** Language-independent, uses IDL.
+
+---
+
+**Q9. What do you mean by SQL escape? Describe scrollable and updateable result sets.**
+
+- **SQL escape:** Special syntax to represent literals/functions.
+- **Scrollable/Updateable:** Can move in any direction, edit data directly in ResultSet.
+
+---
+
+## UNIT 5: Network Programming
+
+**Q1. Write a socket program for a file server that serves files after receiving “GET <filename>”. Handles OK/ERROR responses.**
+
+- Server reads command, checks file, sends file content if exists, else sends "ERROR".
+
+---
+
+**Q2. Write Java program that send messages using TCP socket.**
+
+- Use `Socket`/`ServerSocket`, send/receive via input/output streams.
+
+---
+
+**Q3. Write a TCP client-server system: client sends two integers, server returns the greatest.**
+
+- Client: send two numbers;  
+- Server: receive, compare, send back the greater.
+
+---
+
+**Q4. Java Mail API, Sending and Receiving Email.**
+
+- Use `javax.mail`, set up `Session`, `MimeMessage`, and `Transport.send()`.
+
+---
+
+## UNIT 6: GUI with JavaFX
+
+**Q1. Compare JavaFX with Swing. Explain HBox and VBox.**
+
+- **JavaFX:** Modern, supports more features, FXML, CSS styling.
+- **Swing:** Older library for GUIs.
+- **HBox/VBox:** Layouts for arranging elements horizontally/vertically.
+
+---
+
+**Q2. What is JavaFX? Compare it with swing. Explain FlowPane layout.**
+
+- **JavaFX:** New GUI framework, supports multimedia and modern layouts.
+- **FlowPane:** Arranges nodes in a flow, wrapping at edges.
+
+---
+
+**Q3. Write JavaFX application with components in VBox or HBox.**
+
+- See above VBox example.
+
+---
+
+**Q4. How does JavaFX hyperlink control format text as a button? Illustrate.**
+
+- `Hyperlink` acts like a button styled as a link.
+```java
+Hyperlink link = new Hyperlink("Click me");
+link.setOnAction(e -> System.out.println("Clicked!"));
+```
+
+---
+
+## UNIT 7: Servlets and Java Server Pages (JSP)
+
+**Q1. Explain servlet life cycle. Create servlet that reads and displays data from form.**
+
+- **Life cycle:** `init()`, `service()`, `destroy()`.
+```java
+protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+    String user = req.getParameter("username");
+    res.getWriter().println("User: " + user);
+}
+```
+
+---
+
+**Q2. Explain the life cycle of a servlet.**
+
+- As above: `init()`, `service()`, `destroy()`.
+
+---
+
+**Q3. How does JSP differ from Servlet, show servlet life cycle? How do you create and read cookies and session in JSP?**
+
+- **JSP:** HTML with embedded Java, easier for UI.
+- **Servlet:** Java code, more control.
+- **Cookie in JSP:**
+```jsp
+<%
+Cookie c = new Cookie("name", "value");
+response.addCookie(c);
+Cookie[] cookies = request.getCookies();
+%>
+```
+- **Session:**
+```jsp
+<%
+session.setAttribute("user", "abc");
+String u = (String)session.getAttribute("user");
+%>
+```
+
+---
+
+**Q4. Define JSP. Benefits, read two text fields and display full name.**
+```jsp
+// HTML: <form><input name="first"> <input name="last"></form>
+<%
+String first = request.getParameter("first");
+String last = request.getParameter("last");
+out.print("Full name: " + first + " " + last);
+%>
+```
+
+---
+
+**Q5. How forms can be created and processed using JSP?**
+
+- Use HTML `<form>` tag; read values in JSP with `request.getParameter()`.
+
+---
+
+**Q6. What is servlet? Write JSP to display “Tribhuwan University” five times.**
+```jsp
+<% for(int i=0;i<5;i++) { %>
+Tribhuwan University<br>
+<% } %>
+```
+
+---
+
+**Q7. Compare JSP with servlet. What are different implicit objects in JSP?**
+
+- **JSP**: Easier for UI, has implicit objects (`request`, `response`, `session`, `out`, etc.).
+
+---
+
+**Q8. What do you mean by JSP implicit objects? Discuss Java Mail API.**
+
+- See above; **JavaMail:** Used for sending emails in Java.
+
+---
+
+**Q9. Write a program in JSP to display the string taken in one page in another page.**
+
+- Use `<form action="next.jsp">`, and in `next.jsp`:
+```jsp
+<%= request.getParameter("fieldname") %>
+```
+
+---
+
+**Q10. How do you insert a pop-up menu? Distinguish between GET and POST request.**
+
+- Pop-up menu: `<select>` tag in HTML.
+- **GET:** Data in URL; **POST:** Data in request body.
+
+---
+
+## UNIT 8: RMI and CORBA
+
+**Q1. Significance of stub and skeleton in RMI. Create RMI for factorial. Steps:**
+- **Stub:** Client-side proxy, forwards calls.
+- **Skeleton:** Server-side proxy (pre Java 2).
+- **Steps:** Define remote interface, implement, generate stubs, run registry, start server/client.
+
+---
+
+**Q2. Explain RMI architecture layers. Write RMI for product of two numbers.**
+
+- **Layers:** Application, stub/skeleton, transport.
+- **RMI for product:** Remote interface with `multiply(int,int)`, implement and run.
+
+---
+
+**Q3. Steps to create RMI. RMI vs CORBA.**
+
+- As above.
+- **CORBA:** Language-independent, uses IDL.
+
+---
+
+**Q4. How do you write an IDL file and generate stub/skeleton for CORBA?**
+
+- Write `.idl` file, use IDL compiler to generate code.
+
+---
+
+**Q5. Why is CORBA important? Compare with RMI.**
+
+- **CORBA:** Cross-language interoperability.
+- **RMI:** Java-only, easier for Java-to-Java.
+
+---
+
+## GENERAL / SHORT NOTES
+
+**Q1. JAVA Beans and JAR file**  
+- **Java Beans:** Reusable Java components.
+- **JAR file:** Packaged archive of Java classes/resources.
+
+**Q2. MVC design pattern**  
+- **Model-View-Controller:** Separates data, UI, and logic.
+
+**Q3. JDBC drivers**  
+- Allow Java to communicate with databases.
+
+**Q4. Java Server Pages**  
+- See Unit 7 Q4.
+
+**Q5. Final class**  
+- Cannot be subclassed.
+
+**Q6. Result set**  
+- See Unit 4 Q4.
+
+---
+
+**Note:**  
+This answer file provides concise, exam-friendly content for all chapters and all questions, including conceptual explanations and simple code fragments.
