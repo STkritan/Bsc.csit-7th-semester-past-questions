@@ -17,17 +17,13 @@ It is ideal for students preparing for exams, searching for solved past papers, 
 
 ## 🚀 Quick Navigation – 7th Semester Subjects
 
-- [Advance Java Programming](./Advance%20Java%20Programming)  
-  [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/advanced-java/)
+- [Advance Java Programming](./Advance%20Java%20Programming)   [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/advanced-java/)
 
-- [Principles of Management (MGT411)](./Principles%20of%20Management%20%28MGT411%29)  
-  [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/pom/)
+- [Principles of Management (MGT411)](./Principles%20of%20Management%20%28MGT411%29)    [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/pom/)
 
-- [Data Warehousing and Data Mining (CSC410)](./Data%20Warehousing%20and%20Data%20Mining%20%28CSC410%29)  
-  [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/data-warehousing-data-mining/)
+- [Data Warehousing and Data Mining (CSC410)](./Data%20Warehousing%20and%20Data%20Mining%20%28CSC410%29)    [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/data-warehousing-data-mining/)
 
-- [Software Project Management (CSC415)](./Software%20Project%20Management%20%28CSC415%29)  
-  [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/software-project-management/)
+- [Software Project Management (CSC415)](./Software%20Project%20Management%20%28CSC415%29)    [Past Questions on hamrocsit.com](https://hamrocsit.com/semester/seventh/software-project-management/)
 
 - [Java Simple Answers](./Java%20simple%20answers)
 
@@ -39,12 +35,6 @@ It is ideal for students preparing for exams, searching for solved past papers, 
 - **Past Year Question Papers:** Directly referenced from hamrocsit.com.
 - **Solved Answers:** Concise, exam-focused solutions for each question.
 - **Unit-wise Grouping:** Each subject’s answers are organized by units for fast revision before exams.
-
----
-
-## 🏷️ Keywords for Google Search
-
-_BSc CSIT past questions, TU CSIT solved papers, 7th semester CSIT answers, Advanced Java past questions, Data Warehousing Data Mining CSIT, Software Project Management CSIT, Principles of Management CSIT, hamrocsit.com, TU exam preparation, BSc CSIT Nepal, TU old question papers, CSIT quick revision notes_
 
 ---
 
@@ -60,7 +50,6 @@ If this resource is helpful:
 ## 🔗 More Resources
 
 - [hamrocsit.com 7th Semester](https://hamrocsit.com/semester/seventh)
-- [All TU CSIT Past Papers on hamrocsit.com](https://hamrocsit.com/pastpapers)
 
 ---
 
