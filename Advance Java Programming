@@ -9,7 +9,6 @@ Past Questions: 2077 – 2081**
 - Q4. Why multiple inheritance is not allowed in Java using classes? Give an example. [4 marks, 2077]
 - Q5. What is package? How can you create your own package in Java? Explain with example. [4 marks, 2078]
 - Q6. Arrays, for each loop, access privileges, interface, inner class, final/static modifiers, packages, inheritance, overriding. (See Q1, Q2, Q4, Q5 above for question coverage)
-- Q7. What is the significance of stub and skeleton in RMI? [4 marks, 2077]
 - Q8. Describe the responsibility of Serializable interface. Write a program to read an input string from the user and write the vowels of that string in VOWEL.TXT and consonants in CONSOLNANT.TXT. [10 marks, 2077]
 - Q9. Write a function that accepts an integer array and returns 1 if it is a centered array, otherwise it returns 0. [10 marks, 2080]
 
@@ -24,8 +23,6 @@ Past Questions: 2077 – 2081**
 - Q5. What is grid layout? Compare grid layout with grid bag layout. [4 marks, 2079]
 - Q6. When do we need an internal frame? How do you create a table using Swing? [4 marks, 2080]
 - Q7. Write a program to create a menu named “File” with menu items “New,” “Save,” and “Exit”. [4 marks, 2080]
-- Q8. Explain HBox and BBox layouts of JavaFX. [4 marks, 2078]
-- Q9. Write a JavaFX application with components, buttons, text fields, and labels, arranged in a VBox or HBox layout. [4 marks, 2080]
 - Q10. What are the tasks of sliders and scroll pane? Explain any four types of layout manager. [4 marks, 2081]
 
 ---
@@ -50,7 +47,6 @@ Past Questions: 2077 – 2081**
 - Q5. What is wrong in the following code? (Point class with setP method) [4 marks, 2080]
 - Q6. Explain JDBC driver types. What is scrollable result set? [4 marks, 2079]
 - Q7. Write short notes on: JDBC drivers [4 marks, 2078]
-- Q8. List the steps to create an RMI application. Differentiate between RMI and CORBA. [4 marks, 2080]
 - Q9. DDL and DML Operations, Statements, PreparedStatements, Transactions, SQL Escapes, Updateable Result Sets, Row Sets and Cached Row Sets. (See Q2, Q3, Q4, Q6, Q8 above for coverage)
 - Q10. What do you mean by SQL escape? Describe about scrollable and updateable result sets. [4 marks, 2081]
 
@@ -73,6 +69,8 @@ Past Questions: 2077 – 2081**
 - Q2. What is JavaFX? Compare it with swing. Explain FlowPane layout of JavaFX. [4 marks, 2079]
 - Q3. Write a JavaFX application with components, buttons, text fields, labels, arranged in VBox or HBox. [4 marks, 2080]
 - Q4. How does JavaFX hyperlink control format text that functions as button? Illustrate with an example. [4 marks, 2081]
+- Q8. Explain HBox and BBox layouts of JavaFX. [4 marks, 2078]
+- Q9. Write a JavaFX application with components, buttons, text fields, and labels, arranged in a VBox or HBox layout. [4 marks, 2080]
 
 ---
 
@@ -99,6 +97,8 @@ Past Questions: 2077 – 2081**
 - Q4. How do you write an IDL file and generate stub and skeleton code for CORBA implementation? Explain. [4 marks, 2081]
 - Q5. Why CORBA is important? Compare CORBA with RMI. [4 marks, 2078]
 - Q6. Introduction to CORBA, RMI vs CORBA, Architecture of CORBA, IDL, Simple CORBA Program. (See Q3–Q5 above for coverage)
+- Q7. What is the significance of stub and skeleton in RMI? [4 marks, 2077]
+- Q8. List the steps to create an RMI application. Differentiate between RMI and CORBA. [4 marks, 2080]
 ---
 
 ## GENERAL/SHORT NOTES & MISC
